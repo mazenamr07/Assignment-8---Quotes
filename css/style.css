@@ -1,0 +1,59 @@
+/* -------------------------------------------------------------------------- */
+/*                                Global Style                                */
+/* -------------------------------------------------------------------------- */
+body {
+  background-image: url(../images/rm118-ken-12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------------------- Variables ------------------------------- */
+:root {
+  --sample: none;
+}
+
+/* ---------------------------------- Main ---------------------------------- */
+.container h1 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-weight: 900;
+  word-spacing: 5px;
+}
+
+.container h1 i.left {
+  transform: translateY(-20%);
+}
+
+.container h1 i.right {
+  transform: translateY(40%);
+}
+
+.container p,
+.container span {
+  font-family: "Merriweather", serif;
+}
+
+.p p {
+  border-bottom: 2px solid;
+  border-color: rgb(213, 166, 143);
+  padding: 5px 0;
+}
+
+.container button {
+  font-family: sans-serif;
+  background-color: rgb(213, 166, 143);
+  color: white;
+  font-weight: bold;
+}
+.container button:hover {
+  background-color: rgb(202, 158, 135);
+}
+/* ---------------------------------- Quote --------------------------------- */
+.quote img {
+  height: 250px;
+}
